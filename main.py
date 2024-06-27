@@ -21,19 +21,18 @@ questions = [
     "What are the Clubs of Gen Garage?"
 ]
 
-context = '''
-Gen Garage was founded in Mumbai in 2019 as an innovative platform that unites fresh graduates, interns, mentors, and 
-industry leaders. It focuses on systematically transforming talents for industrial settings and includes all Capgemini 
-employees by default. For further engagement, individuals can connect with business line leads or the core team via the 
-'meet the team' page. Additionally, Gen Z Campus, a collaborative learning initiative with I&D Gen Z Arena, offers 
-immersive learning opportunities, mentorship, and an innovators' space. Operating nationwide, Gen Garage has a 
-significant presence in Bangalore, Mumbai, Pune, Chennai, Hyderabad, Kolkata, and Delhi NCR. It specializes in Data 
-Engineering, Data Science, Machine Learning, Data Visualization, and Cloud Technologies. Formerly known as Millennial 
-Garage, it underwent rebranding in 2023 to 'Gen Garage' with a federated model. Weekly activities include Knowledge 
-Sharing Sessions on Monday, Tuesday Tips, Innovation of the Week on Wednesday, Guru Gyan on Thursday, and Masti Friday. 
-The community features six clubs: Mantri Club, Art Lens Club, Social Media Champs, Escape Club, Magic Pen, and Falcon 
-Club
-'''
+context = "Gen Garage was founded in Mumbai in 2019 as an innovative platform that unites fresh graduates, interns, " \
+          "mentors, and industry leaders. It focuses on systematically transforming talents for industrial settings " \
+          "and includes all Capgemini employees by default. For further engagement, individuals can connect with " \
+          "business line leads or the core team via the 'meet the team' page. Additionally, Gen Z Campus, " \
+          "a collaborative learning initiative with I&D Gen Z Arena, offers immersive learning opportunities, " \
+          "mentorship, and an innovators' space. Operating nationwide, Gen Garage has a significant presence in " \
+          "Bangalore, Mumbai, Pune, Chennai, Hyderabad, Kolkata, and Delhi NCR. It specializes in Data Engineering, " \
+          "Data Science, Machine Learning, Data Visualization, and Cloud Technologies. Formerly known as Millennial " \
+          "Garage, it underwent rebranding in 2023 to 'Gen Garage' with a federated model. Weekly activities include " \
+          "Knowledge Sharing Sessions on Monday, Tuesday Tips, Innovation of the Week on Wednesday, Guru Gyan on " \
+          "Thursday, and Masti Friday. The community features six clubs: Mantri Club, Art Lens Club, Social Media " \
+          "Champs, Escape Club, Magic Pen, and Falcon Club"
 
 app = Flask("__name__")
 CORS(app)
